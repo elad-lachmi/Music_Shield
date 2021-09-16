@@ -204,6 +204,7 @@ class MusicPlayer {
         ctrlState = CS_PREV_LONG;
     }
     void    _hardtime_update(void);
+    int     getPlayingState(void);
 
   private:
     unsigned char _volume;

@@ -676,6 +676,10 @@ boolean MusicPlayer::_inPlayList(uint16_t index) {
     return false;
 }
 
+int MusicPlayer::getPlayingState(void) {
+    return playingState;
+}
+
 #if defined(__AVR_ATmega1280__)|| defined(__AVR_ATmega2560__)
 
 void MusicPlayer::LoadUserCode(void) {
