@@ -38,6 +38,7 @@ opNextSong	KEYWORD2
 opPreviousSong	KEYWORD2
 opFastForward	KEYWORD2
 opFastRewind	KEYWORD2
+getPlayingState KEYWORD2
 
 
 #######################################
